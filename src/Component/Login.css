@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(to top right, #522db9 10%, #7f53ac 80%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img {
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.container {
+    background-color: white;
+    width: 55vw;
+    height: 60vh;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: springgreen;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 300px;
+}
+
+.usuario input {
+    width: 90%;
+    height: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: silver;
+}
+
+.senha input {
+    width: 90%;
+    height: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    background-color: silver;
+}
+
+.botao {
+    width: 95%;
+    height: 2.2rem;
+    border: none;
+    border-radius: 40px;
+    background-color: springgreen;
+}
+
+input:focus {
+    outline: 0;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.usuario {
+    margin-bottom: 10px;
+}
+
+.senha {
+    margin-bottom: 20px;
+}
